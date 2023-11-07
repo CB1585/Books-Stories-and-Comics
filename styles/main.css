@@ -1,0 +1,248 @@
+/*imports normalize*/
+
+/*google font*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap");
+
+/*highlights the image when hovered over*/
+a:hover {
+  background-color: rgba(73, 83, 220, 0.5);
+}
+
+/*image properties*/
+img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*media properties for smaller screens, phones.*/
+@media screen and (min-width: 500px) {
+  /*grid and it's properties*/
+  .grid {
+    display: grid;
+    grid-template-columns: auto; /*amount of columns, this time there are 3 */
+    background-color: rgb(83, 75, 50);
+    grid-gap: 10px;
+  }
+
+  .par {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 300%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-two {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 300%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-three {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-four {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-five {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+  .start {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .top {
+    margin-top: 30px;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+  }
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.grid-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #515e6d; /*borders of the grid*/
+  font-size: 30px; /*size of the text*/
+  padding: 20px;
+  color: #0a0202; /*color of the text*/
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: rgb(83, 75, 50);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4b73bd;
+  color: white;
+}
+
+/*media properties for larger screens, ipads, computers, laptops, etc.*/
+@media screen and (min-width: 1200px) {
+  /*background nav*/
+  /*nav {
+  }*/
+body {
+  background-color: rgb(83, 75, 50);
+}
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*amount of columns, this time there are 3 */
+    background-color: rgb(83, 75, 50);
+    grid-gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .par {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 150%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-two {
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-three {
+    grid-column: 1/3;
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-four {
+    grid-column: 1/3;
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+
+  .par-five {
+    grid-column: 1/3;
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(../images/note.jpg); /*background image for the links*/
+    background-size: 200%; /*size of the background image*/
+    background-origin: content; /*what type of content*/
+  }
+  .start {
+    grid-column: 1/4;
+    text-align: center !important;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .top {
+    grid-column: 1/4;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+  }
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.grid-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #515e6d; /*borders of the grid*/
+  font-size: 30px; /*size of the text*/
+  padding: 15px;
+  color: #0a0202; /*color of the text*/
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: rgb(83, 75, 50);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4b73bd;
+  color: white;
+}
